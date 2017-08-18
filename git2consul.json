@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "sample_configuration",
+    "url" : "git@github.com:patrickbray/consul-config.git",
+    "branches" : ["master"],
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
